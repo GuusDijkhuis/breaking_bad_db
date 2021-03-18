@@ -1,0 +1,29 @@
+.EpisodeListItem {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: row;
+	margin: .5rem 0;
+	padding: .5rem;
+	transition: background-color .35s ease;
+}
+.EpisodeListItem:hover {
+	background-color: rgb(85, 130, 71, 1);
+}
+.EpisodeListItem > input[type="checkbox"] {
+	appearance: unset;
+	width: 1.25rem;
+	min-width: 1.25rem;
+	height: 1.25rem;
+	border: none;
+	box-shadow: inset 2px 2px 2px 2px rgba(0,0,0,.1);
+	background-color: white;
+	margin-right: 1rem;
+}
+.EpisodeListItem > input[type="checkbox"]:checked {
+	background-color: rgb(134, 63, 44);
+}
+.EpisodeLink {
+	text-decoration: none;
+	color: black;
+}
